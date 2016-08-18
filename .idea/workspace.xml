@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0162c3f9-5df0-49da-8d19-8baed1b82bf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prac03/fixedScore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prac03/temperaturesv2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/asciiTablev2.py" afterPath="$PROJECT_DIR$/Prac03/asciiTablev2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/fixedScore.py" afterPath="$PROJECT_DIR$/Prac03/fixedScore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/temperaturesv2.py" afterPath="$PROJECT_DIR$/Prac03/temperaturesv2.py" />
     </list>
     <ignored path="CP1404.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +19,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CP1404$asciiTable.coverage" NAME="asciiTable Coverage Results" MODIFIED="1471479383473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac02" />
-    <SUITE FILE_PATH="coverage/CP1404$asciiTablev2.coverage" NAME="asciiTablev2 Coverage Results" MODIFIED="1471479934841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac03" />
+    <SUITE FILE_PATH="coverage/CP1404$asciiTablev2.coverage" NAME="asciiTablev2 Coverage Results" MODIFIED="1471481137886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac03" />
     <SUITE FILE_PATH="coverage/CP1404$string_formatting.coverage" NAME="string formatting Coverage Results" MODIFIED="1471473984991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac02" />
     <SUITE FILE_PATH="coverage/CP1404$A1_Solution_Catering.coverage" NAME="A1-Solution-Catering Coverage Results" MODIFIED="1471473971940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exemplar - Assignment 1" />
     <SUITE FILE_PATH="coverage/CP1404$temperaturesv2.coverage" NAME="temperaturesv2 Coverage Results" MODIFIED="1471480221228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prac03" />
@@ -36,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="asciiTablev2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prac03/asciiTablev2.py">
+      <file leaf-file-name="temperaturesv2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Prac03/temperaturesv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="510">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -51,56 +52,59 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1471479934824" expanded="true" signature="11:54" ph="..." />
+                <marker date="1471479934824" expanded="true" signature="164:345" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lect_prac02.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prac03/lect_prac02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temperaturesv2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prac03/temperaturesv2.py">
+      <file leaf-file-name="lect_prac01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prac03/lect_prac01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Capalist Conrad.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prac03/Capalist Conrad.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asciiTablev2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prac03/asciiTablev2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="fixedScore.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prac01/fixedScore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fixedScore.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prac03/fixedScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="password checker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prac02/password checker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asciiTable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Prac02/asciiTable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,10 +132,10 @@
         <option value="$PROJECT_DIR$/Prac02/string formatting.py" />
         <option value="$PROJECT_DIR$/Prac03/Capalist Conrad.py" />
         <option value="$PROJECT_DIR$/Prac02/asciiTable.py" />
-        <option value="$PROJECT_DIR$/Prac03/asciiTablev2.py" />
         <option value="$PROJECT_DIR$/Prac03/oddName.py" />
-        <option value="$PROJECT_DIR$/Prac03/temperaturesv2.py" />
         <option value="$PROJECT_DIR$/Prac03/fixedScore.py" />
+        <option value="$PROJECT_DIR$/Prac03/asciiTablev2.py" />
+        <option value="$PROJECT_DIR$/Prac03/temperaturesv2.py" />
       </list>
     </option>
   </component>
@@ -263,7 +267,7 @@
       <recent name="C:\Users\C\Documents\GitHub\CP1404\Prac03" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.temperaturesv2">
+  <component name="RunManager" selected="Python.asciiTablev2">
     <configuration default="false" name="asciiTable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -593,8 +597,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.temperaturesv2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.asciiTablev2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.asciiTablev2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.temperaturesv2" />
         <item index="2" class="java.lang.String" itemvalue="Python.asciiTable" />
         <item index="3" class="java.lang.String" itemvalue="Python.Capalist Conrad (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python.password checker" />
@@ -629,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471479976200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed rest of prac">
+      <created>1471480876535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1471480876535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -679,7 +690,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating work" />
     <MESSAGE value="oddName fixed and completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="oddName fixed and completed" />
+    <MESSAGE value="completed rest of prac" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed rest of prac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -876,25 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prac03/lect_prac02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exemplar - Assignment 1/A1-Solution-Catering.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2023">
           <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prac03/Capalist Conrad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +927,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Prac01/fixedScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prac02/password checker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -946,31 +951,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prac03/asciiTablev2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Prac03/oddName.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1471479934824" expanded="true" signature="11:54" ph="..." />
+            <marker date="1471479934824" expanded="true" signature="164:345" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prac03/temperaturesv2.py">
+    <entry file="file://$PROJECT_DIR$/Prac03/lect_prac02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prac01/fixedScore.py">
+    <entry file="file://$PROJECT_DIR$/Prac03/lect_prac01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -980,8 +980,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Prac03/fixedScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prac03/Capalist Conrad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prac03/asciiTablev2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prac03/temperaturesv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding />
         </state>
       </provider>

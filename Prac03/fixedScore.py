@@ -5,7 +5,7 @@ Broken program to determine score status
 
 
 def main():
-    score = get_score()
+    score = float(input("Enter score: "))
     if score < 0 or score > 100:
         print("Invalid score")
     elif score == 100:
@@ -16,11 +16,6 @@ def main():
         print("Passable")
     else:
         print("Fail")
-
-
-def get_score():
-    score = float(input("Enter score: "))
-    return score
 
 
 main()
