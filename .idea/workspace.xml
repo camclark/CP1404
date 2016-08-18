@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0162c3f9-5df0-49da-8d19-8baed1b82bf0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/asciiTablev2.py" afterPath="$PROJECT_DIR$/Prac03/asciiTablev2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/fixedScore.py" afterPath="$PROJECT_DIR$/Prac03/fixedScore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prac03/temperaturesv2.py" afterPath="$PROJECT_DIR$/Prac03/temperaturesv2.py" />
     </list>
     <ignored path="CP1404.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -640,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471480876535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made changes after being critqued by trev">
+      <created>1471481565280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1471481565280</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -691,7 +695,8 @@
     <MESSAGE value="Updating work" />
     <MESSAGE value="oddName fixed and completed" />
     <MESSAGE value="completed rest of prac" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed rest of prac" />
+    <MESSAGE value="made changes after being critqued by trev" />
+    <option name="LAST_COMMIT_MESSAGE" value="made changes after being critqued by trev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
