@@ -3,16 +3,16 @@ CP1404/CP5632 Practical
 Colour Hex values in a dictionary
 """
 
-COLOUR_NAMES = {"f0f8ff": "AliceBlue", "000000": "Black", "5f9ea0": "CadetBlue", "d2691e": "Chocolate",
-                "6495ed": "CornflowerBlue", "006400": "DarkGreen", "e9967a": "DarkSalmon"}
+COLOUR_NAMES = {"AliceBlue": "f0f8ff", "Black": "000000", "CadetBlue": "5f9ea0", "Chocolate": "d2691e",
+                "CornflowerBlue": "6495ed", "DarkGreen": "006400", "DarkSalmon": "e9967a"}
 
-colour = input("Enter short colour: #").lower()
+colour = input("Enter short colour: ")
 while colour != "":
     if colour in COLOUR_NAMES:
         print(colour, "is", COLOUR_NAMES[colour])
     else:
         print("Invalid colour")
-    colour = input("Enter colour: #").lower()
+    colour = input("Enter colour: ")
 
-for hex_value, colour in COLOUR_NAMES.items():
-    print("{:<5} is {:<10}".format(hex_value, colour))
+for colour, hex_value in COLOUR_NAMES.items():
+    print("{:<15} is {:<5}".format(colour, hex_value))
