@@ -9,6 +9,10 @@ words_to_count = words_to_count.split(" ")
 counted_words = {}
 
 for word in words_to_count:
-    print("count")
-print(words_to_count)
+    if word in counted_words:
+        counted_words[word] += 1
+    else:
+        counted_words[word] = 1
 
+for word,word_count in counted_words.items():
+    print("{:<10} : {:>5}".format(word,word_count))
