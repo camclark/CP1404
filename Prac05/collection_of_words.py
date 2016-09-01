@@ -1,13 +1,15 @@
 """
 CP1404/CP5632 Practical
 Count same words from input
+
+this is a collection of words of nice words this is a fun thing it is
+
 """
 
 words_to_count = input("Text: ")
 words_to_count = words_to_count.split(" ")
 
 counted_words = {}
-longest_key = ""
 
 for word in words_to_count:
     if word in counted_words:
@@ -16,8 +18,7 @@ for word in words_to_count:
     else:
         counted_words[word] = 1
 
-        if len(word) > len(longest_key):
-            longest_key = word
+longest_key = max(len(word) for word in counted_words)
 
-for word, word_count in counted_words.items():
-    print("{:<{}} : {}".format(word, len(longest_key), word_count))
+for word in sorted(counted_words):
+    print("{:<{}} : {}".format(word, longest_key, counted_words[word]))
