@@ -6,16 +6,15 @@ BoxLayout:
         id: entriesBox
         cols: 1
         orientation: 'vertical'
-    Label:
-        id: statusLabel
-        size_hint_y: 0.1
-        text: app.status_text
     BoxLayout:
         orientation: 'horizontal'
         size_hint_y: 0.2
         Button:
             text: "Create Widgets"
             on_release: app.create_widgets()
+        Button:
+            text: "New Widget"
+            on_release: app.add_widget()
         Button:
             text: "Clear Widgets!"
             on_release: app.clear_all()

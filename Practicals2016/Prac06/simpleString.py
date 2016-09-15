@@ -28,6 +28,11 @@ class simpleStringApp(App):
     def press_entry(self, instance):
         self.status_text = "{}".format(instance.text)
 
+    def add_widget(self):
+        temp_label = Label(text="new one")
+        temp_label.bind(on_release=self.press_entry)
+        self.root.ids.entriesBox.add_widget(temp_label)
+
     def clear_all(self):
         self.root.ids.entriesBox.clear_widgets()
 

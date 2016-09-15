@@ -20,7 +20,7 @@ class Game(App):
         return self.root
 
     def set_secret(self):
-        self.secret = randint(0, 11)
+        self.secret = randint(1, 10)
 
     def handle_new_game(self):
         self.number_of_moves = 0
@@ -28,6 +28,7 @@ class Game(App):
 
     def handle_guess(self):
         value = int(self.root.ids.guess_input.text)
+        print(value,self.secret)
         if value > self.secret:
             self.root.ids.game_display.text = str("Try smaller")
         elif value < self.secret:

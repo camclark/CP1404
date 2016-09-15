@@ -65,5 +65,10 @@ class DynamicWidgetsApp(App):
         """
         self.root.ids.entriesBox.clear_widgets()
 
+    def add_widget(self):
+        temp_button = Button(text="new widget")
+        temp_button.bind(on_release=self.press_entry)
+        self.root.ids.entriesBox.add_widget(temp_button)
+
 
 DynamicWidgetsApp().run()
