@@ -37,10 +37,10 @@ class Car:
 class Taxi(Car):
     """ specialised version of a Car that includes fare costs """
 
-    def __init__(self, name, fuel, price_per_km):
+    def __init__(self, name, fuel):
         """ initialise a Taxi instance, based on parent class Car """
         super().__init__(name, fuel)
-        self.price_per_km = price_per_km
+        self.price_per_km = 1.2
         self.current_fare_distance = 0
 
     def __str__(self):
@@ -64,10 +64,10 @@ class Taxi(Car):
 
 
 class SilverServiceTaxi(Taxi):
-    def __init__(self, name, fuel, price_per_km, fanciness):
+    def __init__(self, name, fuel, fanciness):
         """ specialised version of a Taxi that includes fanciness """
-        super().__init__(name, fuel, price_per_km)
-        self.price_per_km = float(fanciness) * price_per_km
+        super().__init__(name, fuel)
+        self.price_per_km *= float(fanciness)
         self.flagfall = 4.50
 
     def get_fare(self):
