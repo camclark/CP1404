@@ -4,7 +4,7 @@ taxi = Taxi("Prius 1", 100)
 taxi.start_fare()
 taxi.drive(30)
 taxi.get_fare()
-print(taxi)
+print()
 
 hummer = SilverServiceTaxi("Jimbo's Hummer", 200, 2)
 hummer.start_fare()
