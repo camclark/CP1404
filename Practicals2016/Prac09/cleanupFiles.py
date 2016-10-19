@@ -48,6 +48,7 @@ def main():
 
         os.chdir(old_dir)
 
+
 def neaten_file_name(filename):
     new_name = filename.replace(" ", "_").replace(".TXT", ".txt")
     new_name = new_name[0].upper() + new_name[1:]
