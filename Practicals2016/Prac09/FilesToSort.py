@@ -10,8 +10,14 @@ def main():
         print(dir_name)
         print(subdir_list)
         print(file_list)
+        category_list = []
         for f in file_list:
             extension = os.path.splitext(f)[1]
+            category = input("What category would you like to sort {} files into? ".format(extension))
+            if category not in category_list:
+                category_list.append(category)
+            category.append(extension)
+
             try:
                 os.mkdir(extension)
             except FileExistsError:
@@ -22,36 +28,36 @@ def main():
 
 
 
-    # print a list of all files (test)
-    # print(os.listdir('.'))
+            # print a list of all files (test)
+            # print(os.listdir('.'))
 
-    # make a new directory
-    # os.mkdir('temp')
+            # make a new directory
+            # os.mkdir('temp')
 
 
 
             # Option 1: rename file to new name - in place
-            #os.rename(filename, final_name)
+            # os.rename(filename, final_name)
 
             # Option 2: move file to new place, with new name
             # shutil.move(filename, 'temp2/' + new_name)
 
-    # Processing subdirectories using os.walk()
-    # os.chdir('..')
-    # for dir_name, subdir_list, file_list in os.walk('.'):
-    #     print("In", dir_name)
-    #     print("\tcontains subdirectories:", subdir_list)
-    #     print("\tand files:", file_list)
-    #
-    #     old_dir = os.getcwd()
-    #     os.chdir(dir_name)
-    #
-    #     for filename in file_list:
-    #         final_name = neaten_file_name(filename)
-    #         os.rename(filename, final_name)
-    #         print(final_name)
-    #
-    #     os.chdir(old_dir)
+            # Processing subdirectories using os.walk()
+            # os.chdir('..')
+            # for dir_name, subdir_list, file_list in os.walk('.'):
+            #     print("In", dir_name)
+            #     print("\tcontains subdirectories:", subdir_list)
+            #     print("\tand files:", file_list)
+            #
+            #     old_dir = os.getcwd()
+            #     os.chdir(dir_name)
+            #
+            #     for filename in file_list:
+            #         final_name = neaten_file_name(filename)
+            #         os.rename(filename, final_name)
+            #         print(final_name)
+            #
+            #     os.chdir(old_dir)
 
 
 main()
