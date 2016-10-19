@@ -10,20 +10,32 @@ def main():
         print(dir_name)
         print(subdir_list)
         print(file_list)
-        category_list = []
+        extensions_to_folders_dict = {".doc": "dance"}
         for f in file_list:
             extension = os.path.splitext(f)[1]
-            category = input("What category would you like to sort {} files into? ".format(extension))
-            if category not in category_list:
-                category_list.append(category)
-            category.append(extension)
+            print("I am")
+            print(extension)
+            key_exists = False
+            for key in extensions_to_folders_dict:
+                if key == extension:
+                    print("i go into")
+                    print(extensions_to_folders_dict[extension])
+                    print()
+                    key_exists = True
 
+            if not key_exists:
+                category = input("What category would you like to sort {} files into? ".format(extension))
+                print("{} will now go into {}".format(extension, category))
+                print()
+                extensions_to_folders_dict[extension] = category
+
+            category = extensions_to_folders_dict[extension]
             try:
-                os.mkdir(extension)
+                os.mkdir(category)
             except FileExistsError:
                 pass
 
-            shutil.move(f, extension)
+            shutil.move(f, category)
 
 
 
