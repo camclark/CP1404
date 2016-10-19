@@ -12,7 +12,7 @@ def main():
         print(file_list)
         extensions_to_folders_dict = {".doc": "dance"}
         for f in file_list:
-            extension = os.path.splitext(f)[1]
+            extension = os.path.splitext(f)[-1]
             print("I am")
             print(extension)
             key_exists = False
@@ -36,40 +36,5 @@ def main():
                 pass
 
             shutil.move(f, category)
-
-
-
-
-            # print a list of all files (test)
-            # print(os.listdir('.'))
-
-            # make a new directory
-            # os.mkdir('temp')
-
-
-
-            # Option 1: rename file to new name - in place
-            # os.rename(filename, final_name)
-
-            # Option 2: move file to new place, with new name
-            # shutil.move(filename, 'temp2/' + new_name)
-
-            # Processing subdirectories using os.walk()
-            # os.chdir('..')
-            # for dir_name, subdir_list, file_list in os.walk('.'):
-            #     print("In", dir_name)
-            #     print("\tcontains subdirectories:", subdir_list)
-            #     print("\tand files:", file_list)
-            #
-            #     old_dir = os.getcwd()
-            #     os.chdir(dir_name)
-            #
-            #     for filename in file_list:
-            #         final_name = neaten_file_name(filename)
-            #         os.rename(filename, final_name)
-            #         print(final_name)
-            #
-            #     os.chdir(old_dir)
-
 
 main()
