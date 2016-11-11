@@ -1,18 +1,21 @@
+from datetime import date
+
+
 class Person:
-    def __init__(self, name, gender, birthday, favourite_colour):
+    def __init__(self, name, gender, birthday):
         self.name = name
         self.gender = gender
         self.birthday = birthday
-        self.favourite_colour = favourite_colour
 
     def calc_age(self):
         """
         01/03/1995
         """
         day, month, year = self.birthday.split("/")
-        month = int(month)
-        year = int(year)
-        if month <= 11:
+        day, month, year = int(day), int(month), int(year)
+
+        # Have they had their birthday this year?
+        if month <= date.today().month and day <= date.today().day:
             return 2016 - year
         else:
             return 2015 - year
@@ -20,7 +23,7 @@ class Person:
     def pronoun(self):
         if self.gender.lower() == "m":
             return "he"
-        elif self.gender.lower == "f":
+        elif self.gender.lower() == "f":
             return "she"
         else:
             return "it"
@@ -31,13 +34,9 @@ class Person:
 
 
 def main():
-    cameron = Person("Cameron", "M", "7/1/1995", "Blue")
-    pen_man = Person("pen man", "Pen", "7/1/1995", "Black")
-    gilbert = Person("Daniel", "M", "29/12/1998", "Goon")
-
-    print(cameron)
-    print(pen_man)
-    print(gilbert)
-
+    print(Person("Cameron", "M", "7/1/1995"))
+    print(Person("pen man", "Pen", "7/1/1995"))
+    print(Person("Daniel", "M", "29/12/1998"))
+    print(Person("Baby Danni", "F", "11/12/2015"))
 
 main()
