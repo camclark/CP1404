@@ -29,7 +29,7 @@ class Person:
             return "it"
 
     def __str__(self):
-        return "{} is {}, {} was born on {}. Therefore {} is {}".format(self.name, self.gender, self.pronoun(),
+        return "{} is {}, {} was born on {}. Therefore {} is {}".format(name, self.gender, self.pronoun(),
                                                                         self.birthday, self.pronoun(), self.calc_age())
 
 

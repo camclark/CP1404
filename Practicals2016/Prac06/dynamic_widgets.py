@@ -50,7 +50,7 @@ class DynamicWidgetsApp(App):
 
     def press_entry(self, instance):
         """
-        Handler for pressing entry buttons
+        Handler for pressing item buttons
         :param instance: the Kivy button instance
         :return: None
         """
